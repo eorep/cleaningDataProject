@@ -1,0 +1,108 @@
+---
+title: "Codebook"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Getting and Cleaning Data Course Project
+
+This document list all the variables included in the result of the project. 
+
+The experiments have being carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+Each person performed his/her activities wearing a smartphone Samsung Galaxy S II on the waist.
+
+The acceleration signals were measured in standard gravity units 'g'. The angular velocity vector measured by the gyroscope were captured in radians/second.
+
+For more details on the original study please [visit this link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+
+#### Data Dictionary
+
+Variable Name |  Variable Description       |  Class
+-----------------|----------------------------------------|-------
+subjectid	|	ID of the volunteer who took part on the experiment. Its range is from 1 to 30. 	|	integer
+activity	|	Activity that each volunteer performed, including: laying, sitting, standing, walking, walking downstairs and walking upstairs.	|	factor
+frequencybodyaccelerationjerkmagnitudemean	|	Mean of the jerk signal of the estimated body acceleration.	|	numeric
+frequencybodyaccelerationjerkmagnitudemeanfreq	|	Frequency mean of the jerk signal of the estimated body acceleration.	|	numeric
+frequencybodyaccelerationjerkmagnitudestandarddev	|	Standard deviation of the jerk signal of the estimated body acceleration.	|	numeric
+frequencybodyaccelerationjerkmeanfreqx	|	Frequency mean of the jerk signal of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodyaccelerationjerkmeanfreqy	|	Frequency mean of the jerk signal of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodyaccelerationjerkmeanfreqz	|	Frequency mean of the jerk signal of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodyaccelerationjerkmeanx	|	Mean of the jerk signal of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodyaccelerationjerkmeany	|	Mean of the jerk signal of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodyaccelerationjerkmeanz	|	Mean of the jerk signal of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodyaccelerationjerkstandarddevx	|	Standard deviation of the jerk signal of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodyaccelerationjerkstandarddevy	|	Standard deviation of the jerk signal of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodyaccelerationjerkstandarddevz	|	Standard deviation of the jerk signal of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodyaccelerationmagnitudemean	|	Mean of the body acceleration.	|	numeric
+frequencybodyaccelerationmagnitudemeanfreq	|	Frequency mean of the body acceleration.	|	numeric
+frequencybodyaccelerationmagnitudestandarddev	|	Standard deviation of the body acceleration.	|	numeric
+frequencybodyaccelerationmeanfreqx	|	Frequency mean of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodyaccelerationmeanfreqy	|	Frequency mean of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodyaccelerationmeanfreqz	|	Frequency mean of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodyaccelerationmeanx	|	Mean of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodyaccelerationmeany	|	Mean of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodyaccelerationmeanz	|	Mean of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodyaccelerationstandarddevx	|	Standard deviation of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodyaccelerationstandarddevy	|	Standard deviation of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodyaccelerationstandarddevz	|	Standard deviation of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodygyroscopejerkmagnitudemean	|	Mean of the jerk signal of the angular velocity of the body acceleration	|	numeric
+frequencybodygyroscopejerkmagnitudemeanfreq	|	Frequency mean of the jerk signal of the angular velocity of the body acceleration	|	numeric
+frequencybodygyroscopejerkmagnitudestandarddev	|	Standard deviation of the jerk signal of the angular velocity of the body acceleration	|	numeric
+frequencybodygyroscopemagnitudemean	|	Mean of the angular velocity of the body acceleration	|	numeric
+frequencybodygyroscopemagnitudemeanfreq	|	Frequency mean of the angular velocity of the body acceleration	|	numeric
+frequencybodygyroscopemagnitudestandarddev	|	Standard deviation of the angular velocity of the body acceleration	|	numeric
+frequencybodygyroscopemeanfreqx	|	Frequency mean of the angular velocity of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodygyroscopemeanfreqy	|	Frequency mean of the angular velocity of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodygyroscopemeanfreqz	|	Frequency mean of the angular velocity of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodygyroscopemeanx	|	Mean of the angular velocity of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodygyroscopemeany	|	Mean of the angular velocity of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodygyroscopemeanz	|	Mean of the angular velocity of the body acceleration on the z axis of the phone.	|	numeric
+frequencybodygyroscopestandarddevx	|	Standard deviation of the angular velocity of the body acceleration on the x axis of the phone.	|	numeric
+frequencybodygyroscopestandarddevy	|	Standard deviation of the angular velocity of the body acceleration on the y axis of the phone.	|	numeric
+frequencybodygyroscopestandarddevz	|	Standard deviation of the angular velocity of the body acceleration on the z axis of the phone.	|	numeric
+timebodyaccelerationjerkmagnitudemean	|	Mean of the jerk signal of the body linear acceleration 	|	numeric
+timebodyaccelerationjerkmagnitudestandarddev	|	Standard deviation of the jerk signal of the body linear acceleration 	|	numeric
+timebodyaccelerationjerkmeanx	|	Mean of the jerk signal of the body linear acceleration on the x axis of the phone.	|	numeric
+timebodyaccelerationjerkmeany	|	Mean of the jerk signal of the body linear acceleration on the y axis of the phone.	|	numeric
+timebodyaccelerationjerkmeanz	|	Mean of the jerk signal of the body linear acceleration on the z axis of the phone.	|	numeric
+timebodyaccelerationjerkstandarddevx	|	Standard deviation of the jerk signal of the body linear acceleration on the x axis of the phone.	|	numeric
+timebodyaccelerationjerkstandarddevy	|	Standard deviation of the jerk signal of the body linear acceleration on the y axis of the phone.	|	numeric
+timebodyaccelerationjerkstandarddevz	|	Standard deviation of the jerk signal of the body linear acceleration on the z axis of the phone.	|	numeric
+timebodyaccelerationmagnitudemean	|	Mean of the body linear acceleration.	|	numeric
+timebodyaccelerationmagnitudestandarddev	|	Standard deviation of the body linear acceleration.	|	numeric
+timebodyaccelerationmeanx	|	Mean of the body linear acceleration on the x axis of the phone.	|	numeric
+timebodyaccelerationmeany	|	Mean of the body linear acceleration on the y axis of the phone.	|	numeric
+timebodyaccelerationmeanz	|	Mean of the body linear acceleration on the z axis of the phone.	|	numeric
+timebodyaccelerationstandarddevx	|	Standard deviation of the body linear acceleration on the x axis of the phone.	|	numeric
+timebodyaccelerationstandarddevy	|	Standard deviation of the body linear acceleration on the y axis of the phone.	|	numeric
+timebodyaccelerationstandarddevz	|	Standard deviation of the body linear acceleration on the z axis of the phone.	|	numeric
+timebodygyroscopejerkmagnitudemean	|	Mean of the jerk signal of the body angular velocity vector.	|	numeric
+timebodygyroscopejerkmagnitudestandarddev	|	Standard deviation of the jerk signal of the body angular velocity vector.	|	numeric
+timebodygyroscopejerkmeanx	|	Mean of the jerk signal of the body angular velocity vector on the x axis of the phone.	|	numeric
+timebodygyroscopejerkmeany	|	Mean of the jerk signal of the body angular velocity vector on the y axis of the phone.	|	numeric
+timebodygyroscopejerkmeanz	|	Mean of the jerk signal of the body angular velocity vector on the z axis of the phone.	|	numeric
+timebodygyroscopejerkstandarddevx	|	Standard deviation of the jerk signal of the body angular velocity vector on the x axis of the phone.	|	numeric
+timebodygyroscopejerkstandarddevy	|	Standard deviation of the jerk signal of the body angular velocity vector on the y axis of the phone.	|	numeric
+timebodygyroscopejerkstandarddevz	|	Standard deviation of the jerk signal of the body angular velocity vector on the z axis of the phone.	|	numeric
+timebodygyroscopemagnitudemean	|	Mean of the body angular velocity vector.	|	numeric
+timebodygyroscopemagnitudestandarddev	|	Standard deviation of the body angular velocity vector.	|	numeric
+timebodygyroscopemeanx	|	Mean of the body angular velocity vector on the x axis of the phone.	|	numeric
+timebodygyroscopemeany	|	Mean of the body angular velocity vector on the y axis of the phone.	|	numeric
+timebodygyroscopemeanz	|	Mean of the body angular velocity vector on the z axis of the phone.	|	numeric
+timebodygyroscopestandarddevx	|	Standard deviation of the body angular velocity vector on the x axis of the phone.	|	numeric
+timebodygyroscopestandarddevy	|	Standard deviation of the body angular velocity vector on the y axis of the phone.	|	numeric
+timebodygyroscopestandarddevz	|	Standard deviation of the body angular velocity vector on the z axis of the phone.	|	numeric
+timegravityaccelerationmagnitudemean	|	Mean of the gravity vector.	|	numeric
+timegravityaccelerationmagnitudestandarddev	|	Standard deviation of the gravity vector.	|	numeric
+timegravityaccelerationmeanx	|	Mean of the gravity vector on the x axis of the phone.	|	numeric
+timegravityaccelerationmeany	|	Mean of the gravity vector on the y axis of the phone.	|	numeric
+timegravityaccelerationmeanz	|	Mean of the gravity vector on the z axis of the phone.	|	numeric
+timegravityaccelerationstandarddevx	|	Standard deviation of the gravity vector on the x axis of the phone.	|	numeric
+timegravityaccelerationstandarddevy	|	Standard deviation of the gravity vector on the y axis of the phone.	|	numeric
+timegravityaccelerationstandarddevz	|	Standard deviation of the gravity vector on the z axis of the phone.	|	numeric
+
+**Source**: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
+
